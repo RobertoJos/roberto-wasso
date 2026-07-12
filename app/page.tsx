@@ -6,7 +6,10 @@ export default function Home() {
           Roberto Wasso
         </h1>
         <p className="mt-4 text-2xl text-zinc-600">
-          Software Engineer | Full Stack Developer
+          Software Engineer | Full Stack Developer 
+        </p>
+        <p className="mt-4 text-2xl text-zinc-600">
+          Trader
         </p>
         <p className="mt-6 text-lg text-zinc-500">
           Spécialisé dans Firebase et les technologies Cloud. 
