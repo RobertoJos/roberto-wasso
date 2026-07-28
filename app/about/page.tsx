@@ -11,7 +11,7 @@ export default function AboutPage() {
           
           <div className="relative h-64 w-64 mx-auto md:mx-0">
             <Image 
-              src="/profile1.jpg"
+              src="/Zayi.png"
               alt="Roberto Wasso"
               fill 
               sizes="(max-width: 768px) 100vw, 256px"
