@@ -1,7 +1,7 @@
 interface ProjectProps {
   title: string;
   description: string;
-  status: "En production" | "En développement" | "Archivé";
+  status: string;
   link?: string; // Le '?' signifie que le lien est optionnel
 }
 
