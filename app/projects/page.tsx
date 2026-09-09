@@ -35,6 +35,7 @@ const projectsContent = {
     p1Desc: "Simulateur instantané de prime mensuelle avec calcul dynamique selon la catégorie, l'usage et la valeur du véhicule, couplé à un tunnel de conversion WhatsApp.",
     p2Desc: "Plateforme de contenu pour le développement personnel et la psychologie du trading.",
     p3Desc: "Système de gestion multi-établissements.",
+    p4Desc: "Plateforme consulaire de prise de rendez-vous en ligne et de gestion des créneaux pour l'Ambassade de l'Angola en RDC.",
   },
   EN: {
     title: "My Projects",
@@ -45,6 +46,7 @@ const projectsContent = {
     p1Desc: "Instant monthly premium simulator with dynamic calculation based on vehicle category, usage, and value, coupled with a WhatsApp conversion funnel.",
     p2Desc: "Content platform for personal development and trading psychology.",
     p3Desc: "Multi-institution management system.",
+    p4Desc: "Online consular appointment booking and slot management platform for the Embassy of Angola in the DRC.",
   },
   PT: {
     title: "Meus Projetos",
@@ -55,6 +57,7 @@ const projectsContent = {
     p1Desc: "Simulador instantâneo de prêmio mensal com cálculo dinâmico baseado na categoria, uso e valor do veículo, acoplado a um funil de conversão do WhatsApp.",
     p2Desc: "Plataforma de conteúdo para desenvolvimento pessoal e psicologia de trading.",
     p3Desc: "Sistema de gestão multi-instituições.",
+    p4Desc: "Plataforma consular de agendamento online e gestão de vagas para a Embaixada de Angola na RDC.",
   },
 };
 
@@ -99,6 +102,15 @@ export default function ProjectsPage() {
           animate="visible"
           className="grid gap-6 md:grid-cols-2"
         >
+          <motion.div variants={itemVariants}>
+            <ProjectCard 
+              title="Ambassade d'Angola | RDC" 
+              description={t.p4Desc}
+              status={t.statusProduction}
+              link="https://luanda-kinshasa-consulat.vercel.app"
+            />
+          </motion.div>
+
           <motion.div variants={itemVariants}>
             <ProjectCard 
               title="RAWSUR | Assurance Auto" 
