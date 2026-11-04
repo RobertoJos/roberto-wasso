@@ -9,7 +9,6 @@ import { useLanguage } from '@/context/LanguageContext';
 const content = {
   FR: {
     subtitle: 'Software Engineer | Full Stack Developer',
-    trader: 'Trader',
     bio: 'Spécialisé dans Firebase et les technologies Cloud. Je construis des applications performantes et scalables.',
     expandBtn: 'Extension du Territoire',
     projectsBtn: 'Voir mes projets',
@@ -18,7 +17,6 @@ const content = {
   },
   EN: {
     subtitle: 'Software Engineer | Full Stack Developer',
-    trader: 'Trader',
     bio: 'Specialized in Firebase and Cloud technologies. Building high-performance, scalable applications.',
     expandBtn: 'Domain Expansion',
     projectsBtn: 'View Projects',
@@ -27,7 +25,6 @@ const content = {
   },
   PT: {
     subtitle: 'Engenheiro de Software | Desenvolvedor Full Stack',
-    trader: 'Trader',
     bio: 'Especializado em Firebase e tecnologias de Nuvem. Desenvolvo aplicações de alta performance e escaláveis.',
     expandBtn: 'Expansão de Domínio',
     projectsBtn: 'Ver Projetos',
