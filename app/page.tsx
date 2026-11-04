@@ -63,9 +63,6 @@ export default function Home() {
               <p className="mt-4 text-2xl text-zinc-600">
                 {t.subtitle}
               </p>
-              <p className="mt-2 text-2xl text-zinc-600 font-medium">
-                {t.trader}
-              </p>
               <p className="mt-6 text-lg text-zinc-500">
                 {t.bio}
               </p>
